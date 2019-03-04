@@ -1,4 +1,4 @@
-import * as ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import * as React from 'react';
 import { store, history } from './store';
@@ -17,5 +17,5 @@ ReactDOM.render(
     </ConnectedRouter>
   </Provider>,
 
-  document.querySelector('isaacReact-root')
+  document.getElementById('root')
 );
